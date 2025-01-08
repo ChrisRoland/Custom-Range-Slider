@@ -32,6 +32,7 @@ input[type="range"] {
     border-radius: 50px;
     appearance: none;
     -webkit-appearance: none;
+    background: #e8f0f7; /* Default background */
 }
 
 input[type="range"] + label {
@@ -52,7 +53,6 @@ input[type="range"]:focus {
 
 /* Safari & Chrome */
 input[type="range"]::-webkit-slider-runnable-track {
-    background: #e8f0f7;
     border: 2px solid #589ad4;
     border-radius: 50px;
     width: 100px;
@@ -82,7 +82,6 @@ input[type="range"]::-webkit-slider-thumb:active {
 
 /* Firefox */
 input[type="range"]::-moz-range-track {
-    background: #e8f0f7;
     border: 2px solid #589ad4;
     border-radius: 50px;
     width: 100px;
@@ -111,8 +110,7 @@ input[type="range"]::-moz-range-thumb:active {
 }
 
 /* Edge */
-input[type="range"]::-ms-track{
-    background: #e8f0f7;
+input[type="range"]::-ms-track {
     border: 2px solid #589ad4;
     border-radius: 50px;
     width: 100px;
